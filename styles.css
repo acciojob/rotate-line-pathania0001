@@ -9,4 +9,7 @@
 	border:1px solid;
 	transform:translate(-50%,-50%);
 	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	transform-origin:50% 50%;
 }
