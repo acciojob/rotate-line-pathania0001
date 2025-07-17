@@ -2,9 +2,8 @@
 
 const line  = document.getElementById("line");
 let rotation = 0; 
-console.log(line)
+line.style.transformOrigin ="center center";
 setInterval(()=>{
-	line.style.transformOrigin ="center";
 	rotation+=2;
 	line.style.transform=`rotate(${rotation%360}deg)`;
 },20)

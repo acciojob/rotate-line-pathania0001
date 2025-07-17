@@ -8,4 +8,5 @@
 	left:50%;
 	border:1px solid;
 	transform:translate(-50%,-50%);
+	box-sizing:border-box;
 }
